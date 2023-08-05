@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" integrity="sha384-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" >
+        <title>blog</title>
+    </head>
+<body>
+   <header>
+    <div class="nav-bar">
+        <div class="logo">
+            <h3>Game hub <i class="bi bi-controller"></i></h3>
+        </div>
+        <div class="desktop-nav">
+            <ul class="nav nav-underline">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#games">Games</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"  href="#contact">Contact</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About Us</a>
+                </li>
+            
+              </ul>
+        </div>
+      
+          <div class="Mobile-nav">
+            <nav class="navbar bg-body-tertiary fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Game Hub</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Game Hub<i class="fa fa-gamepad" aria-hidden="true"></i></i></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#games">Games</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link"  href="#contact">Contact</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                          </li>
+                         
+                     
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+          </div>
+
+          
+    </div>
+</header>
+    <section id="home">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/Blog/assets/1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item"> 
+                <img src="/Blog/assets/2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">                
+                <img src="/Blog/assets/3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+
+    </section>
+    <section id="games">
+        <div class="row">
+            <ul class="img-list">
+              <li><span class="img-placeholder">- Click To Play -</span></li>
+              <li><a href="/Blog/games/snake.html" target="_blank"><img src="/Blog/assets/snake.jpg"></a></li>
+              <li><a href="/Blog/games/tic-tac-toe.html" target="_blank"><img src="/Blog/assets/tic.png"></a></li>
+              <li><a href="/Blog/games/guessing.html" target="_blank"><img src="/Blog/assets/gues.png"></a></li>
+              <li><span class="img-placeholder">- Click To Play -</span></li>
+              <li><a href="/Blog/games/quiz.html" target="_blank"><img src="/Blog/assets/quiz.jpg"></a></li>
+              <li><span class="img-placeholder">- Click To Play -</span></li>
+              <li><a href="/Blog/games/scrabble.html" target="_blank"><img src="/Blog/assets/scr.jpg"></a></li>
+              <li><a href="/Blog/games/mem.html" target="_blank"><img src="/Blog/assets/memo.jpg"></a></li>
+            </ul>
+          </div>
+          
+    </section>
+    <section id="about">
+        
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div style="text-align:center">
+              <h2>Contact Us</h2>
+              <p>Let me know if you have a question</p>
+            </div>
+            <div class="row">
+              <div class="column">
+                <img src="/Blog/assets/5.png" style="width:100%", >
+              </div>
+              <div class="column">
+                <form action="action_page.php" method="post">
+                    <!-- Your form fields go here -->
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                </form>
+                
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+      <!-- Site footer -->
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">At  Game hub, we are passionate about bringing back the nostalgic charm of classic video games. Our mission is to provide a platform where both seasoned gamers and new enthusiasts can come together to relive the magic of retro gaming.
+
+                We believe that gaming should be simple and enjoyable, just like the good old days. Our website is an initiative to support upcoming gamers and programmers alike. With a focus on simplicity, we strive to offer the most efficient and straightforward code snippets and resources, making it easier for aspiring programmers to learn and grow.</p>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Technologies</h6>
+              <ul class="footer-links">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JAVASCRIPT</a></li>
+                <li><a href="#">BOOTSTRAP</a></li>
+            </ul>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About</a></li>
+                
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+
+              </p>
+            </div>
+  
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+ 
+
+
+
+ 
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> 
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>
